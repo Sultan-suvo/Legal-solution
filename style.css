@@ -1,0 +1,78 @@
+.primary-btn{
+  background-color: #9a784b;
+  border-radius: 10px;
+  border:solid 1px #9a784b ;
+}
+.p-desc{
+  padding: 0px 300px;
+}
+
+.container-section{
+  margin-bottom:120px ;
+}
+.header-banner{
+  height: 95vh;
+  width: auto;
+  background-image: url('./images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-banner-items{
+  padding: 240px 300px;
+}
+
+.form-hero{
+  height: 50px;
+}
+
+
+
+.carousal-items{
+  margin-bottom: 200px;
+}
+.carusal-bg{
+  height: 95vh;
+  width: 100%;
+}
+
+.carousal-img{
+  width: 25%;
+}
+.card-img{
+  width: 73px;
+}
+.faq-image {
+  width: 70%;
+  margin-left: 110px;
+}
+.input-icon{
+  border: solid 1 #9a784b;
+  background-color: #9a784b;
+  padding: 12px;
+  margin-left: 360px;
+}
+@media only screen and (max-width: 576px) {
+  .container-section{
+    margin-bottom:100px ;
+  }
+  .input-icon{
+    
+    margin-left:310px;
+  }
+  .p-desc{
+    padding: 0px 0px;
+  }
+  .header-banner-items{
+    padding: 180px 40px;
+  }
+  .carousal-items{
+    margin-bottom: 90px;
+  }
+  .faq-image {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+  
+}
